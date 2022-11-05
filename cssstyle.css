@@ -13,11 +13,11 @@ body {
 }
 
 header {
-    background-color: #C77DFF;
+
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 30px;
+    margin: 40px 90px;
     padding: 30px;
     font-size: 30px;
     border-radius: 30%;
@@ -54,7 +54,7 @@ header a:hover {
 section {
     padding: 40px;
     background-color: #C77DFF;
-    margin: 1cm 5cm;
+    margin: 30px 150px;
     border-radius: 2%;
     background-image: url(bg.jfif);
     background-repeat: no-repeat;
@@ -221,6 +221,16 @@ li {
     margin-left: 280px;
 }
 
+.longbar a {
+    padding: 5px;
+
+}
+
+.longbar a:hover {
+    transform: translateX(100px);
+
+}
+
 .newcontest {
     border-radius: 5%;
     padding: 2px;
@@ -274,7 +284,7 @@ footer {
 
 .top {
     position: fixed;
-    top: 90%;
+    top: 80%;
     left: 93%;
 
 }
@@ -282,17 +292,19 @@ footer {
 .play img {
     transform: scale(1, 1);
     transition: all 1s ease-out;
+    opacity: 0.4;
 }
 
 .play img:hover {
     transform: scale(1.5, 1.5);
+    opacity: 1;
 }
 
 
 .py1 img {
     transform: scale(1, 1);
     transition: all 1s ease-out;
-    margin: 1cm 2.4cm;
+    margin: 30px 90px;
     text-align: center;
 }
 
@@ -307,6 +319,7 @@ footer {
 
 .myself img:hover {
     transform: scale(1.5, 1.5);
+    transform: rotate(180deg);
 }
 
 .bask img {
@@ -321,8 +334,8 @@ footer {
 }
 
 .share {
-    margin: 2cm 2.1cm;
-    padding: 2px;
+    margin: 50px 30px;
+    padding: 3px;
     float: right;
     font-size: 20px;
     border: black;
@@ -332,8 +345,8 @@ footer {
 }
 
 .sha {
-    margin: 1.6cm 1.5cm;
-    padding: 2px;
+    margin: 50px 30px;
+    padding: 3px;
     float: right;
     font-size: 20px;
     border: black;
@@ -342,11 +355,16 @@ footer {
 }
 
 .shar {
-    margin: 2.8cm 1.5cm;
-    padding: 2px;
+    margin: 70px 30px;
+    padding: 3px;
     float: right;
     font-size: 20px;
     border: black;
     border-style: double;
     border-radius: 10%;
+}
+
+.exp {
+    margin: 0px 180px;
+    border-radius: 0%;
 }
